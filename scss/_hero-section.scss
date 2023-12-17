@@ -1,0 +1,71 @@
+  .hero-section{
+      background-image:url("/assets/girl-holding-up-bags-street.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 45vw;
+      position:relative;
+
+      .main-content{
+        height: 45vw;
+        
+        .background-image{
+            position: absolute;
+            top:15%;
+            right:5%; 
+           
+           .background-shape{
+            background-color: $w-color;
+            height: 28vw;
+            width:28vw;
+            box-shadow:0 0 90px 70px rgba(147,60,168,0.50);
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+            
+            .content{
+              
+                border: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                line-height: 1.5;
+               
+                
+                  .eos{
+                    margin-top: 1rem;
+                    font-size: 2.2rem;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    text-align: center;
+                  }
+                  
+                  .summers{
+                    font-family: 'supremeregular',sans-serif;
+                    font-size: 2.8rem;
+                    font-weight: 800;
+                    text-transform: capitalize;
+                    color:$icons-color;
+                    text-align:center ;
+                  }
+                 
+                  .ut{
+                    font-family: 'Anybody', cursive;
+                    font-size: 1.89rem;
+                    text-align: center;
+                    font-weight: 500;
+                  }
+                  
+                }
+
+            }
+        }
+      }
+   
+    }
+       
+      
+        
+     
+    

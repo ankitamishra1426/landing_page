@@ -1,0 +1,76 @@
+.categories{
+    background-image:url("/assets/4008879.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 46vw;
+     .parent-grid{
+        display: grid;
+        grid: 39vw / auto auto auto ;
+        grid-gap: 2rem;
+        padding: 10px;
+        .grid-parent > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+        }
+        .grid-item{
+            border: 2.8px solid #301737;
+        
+            margin: 4rem 1rem 0 1rem;
+            text-align: center;
+            &:hover{
+                border:2.8px solid #933ca8;
+                transform: scale(1.1);
+            }
+            h2{
+                color: $text-color;
+                font-size: clamp(1rem,3rem,2rem);
+                font-weight: 600;
+                font-family: 'Alfa Slab One', serif;
+                text-transform: uppercase;  
+            }
+            .sub-grid{
+                display: grid;
+                grid: 14vw 14vw/ auto auto  ;
+                grid-gap: 20px;
+                padding: 10px;
+                
+            .sub-grid-item{
+                  
+                    &:hover{
+                        border:2.8px solid #933ca8;
+                        transform: scale(1.1);
+                    }
+                    .image-section{
+                     
+                        img{
+                            width: 8vw;
+                            height: 8vw;
+                            margin:.5rem auto;
+                            
+                        }
+
+                        
+                    }
+                    a{
+                        color: $text-color;
+                        font-size: clamp(1rem,1.3rem,2rem);
+                        font-weight: 600;
+                        font-family: 'Alfa Slab One', serif;
+                        text-transform: uppercase;
+                        &:hover{
+                         color: $text2-color;
+                        }
+                      }
+                }
+            }
+        }
+          
+    }
+
+}
+
+
+
+

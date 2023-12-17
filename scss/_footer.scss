@@ -1,0 +1,47 @@
+footer{
+color:$text-color;
+.inner-contact-details{
+    margin-top:1.8rem ;
+    margin-bottom:1rem;
+    .details{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap:2rem;
+        .job-offers{
+            flex-basis: 25%;
+         }
+        a{
+            line-height: 1.5;
+            color: $text-color;
+            text-transform: capitalize;
+            font-size: 1.2rem;
+            font-weight: 500;
+            font-family: 'Anybody', cursive;
+        }
+        .policy{
+            flex-basis: 25%;
+        }
+        .social-media{
+            flex-basis: 25%;
+            display: flex;
+            gap: 1rem;
+            i{
+                font-size: 2.3rem;
+            }
+        }
+        .contact-address{
+            flex-basis: 25%;
+            p{
+                max-width: 60%;
+                color: $text-color;
+                text-transform: capitalize;
+                font-size: 1rem;
+                font-weight: 500;
+                font-family: 'Anybody', cursive;
+            }
+        }
+     }
+}
+ 
+}
